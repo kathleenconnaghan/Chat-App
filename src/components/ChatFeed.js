@@ -62,7 +62,7 @@ const  ChatFeed = (props) => {
             <MessageForm { ...props} chatId={activeChat} />
         </div>
         </div>
-    )
+    );
 }
 
 export default ChatFeed;
