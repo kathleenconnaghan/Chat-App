@@ -21,7 +21,7 @@ const TheirMessage = ({ lastMessage, message}) => {
                             style= {{ marginLeft: isFirstMessageByUser ? '4px' : '48px' }}
                         />
                     ) : (
-                        <div className= 'message' style= {{ float: 'left', backgroundColor: '#CABCDC', marginLeft: isFirstMessageByUser ? '4px' : '48px'}}>
+                        <div className= 'message' style= {{ float: 'left', backgroundColor: '#FFE5B4', marginLeft: isFirstMessageByUser ? '4px' : '48px'}}>
                             {message.text}
                         </div>
                     )
@@ -31,3 +31,7 @@ const TheirMessage = ({ lastMessage, message}) => {
 }
 
 export default TheirMessage;
+
+
+
+
